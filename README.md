@@ -1,2 +1,6 @@
 # PPPloan
-Analysis of SBA's Paycheck Protection Program loans during the early pandemic
+Analysis of SBA's Paycheck Protection Program loans during the early pandemic.
+
+As someone passionate about business and finance reporting, I wanted to use a dataset that aligned with such interests. Taking into account the current pandemic we are living through, I thought it would be interesting to examine the relief given to businesses through the Small Business Administration’s Paycheck Protection Program (PPP) loans. My final article can be found here: https://storymaps.arcgis.com/stories/6969b1d86cd84ec29d26cccdf5f7b09d.
+
+The dataset I used can be located here: https://data.sba.gov/dataset/ppp-foia. The dataset consists of 200,000 entries of PPP loan approvals in the state of Illinois from early April to early August. The dataset includes information on city, zip code, loan amount, loan approval date, jobs reported, gender, race/ethnicity, lender, non-profit status, veteran status, business type, and NAISC code. As the dataset was incredibly large, I decided focusing on specifically Chicago would allow for more concentrated insight and interview material. The following code shows the manipulation I did to reduce the dataset into just Chicago. As data not included was filled as “Unanswered,” I needed to not only refine the dataset but also put it in a form that would recognize “Unanswered” as NA data.
