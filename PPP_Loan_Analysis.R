@@ -9,8 +9,8 @@ library(naniar)
 library(knitr)
 
 # read data
-PPP_Data <- read_csv("PPP Data up to 150k 080820 IL.csv")
-NAISC <- read_excel("NAISC.xlsx", col_types = c("text", "text"))
+PPP_Data <- read_csv("data/PPP Data up to 150k 080820 IL.csv")
+NAISC <- read_excel("data/NAISC.xlsx", col_types = c("text", "text"))
 
 # Data Cleaning -----------------------------------------------------------
 
